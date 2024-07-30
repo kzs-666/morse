@@ -1,4 +1,4 @@
-import winsound
+from winsound import Beep
 import time
 # from playsound import playsound
 
@@ -55,5 +55,3 @@ def morse(letter):
             winsound.Beep(HERZ, SHORT)
         else:
             winsound.Beep(HERZ, LONG)
-        #time.sleep(PAUSE)
-    time.sleep(0.5)
